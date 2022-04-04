@@ -62,16 +62,16 @@
 
 _(1:Начало, выполняется только один раз перед началом новой задачи или 2:Конец, перед внедрением выполненой задачи)_
 
-1. Добавляем ветку:     **git branch**     update_for_current_data
-2. Переходим в ветку:   **git checkout**   update_for_current_data
+1. Добавляем ветку:     **git branch**     update_to_current_data
+2. Переходим в ветку:   **git checkout**   update_to_current_data
 2. Открываем конфигурацию    "Х" (или открыл обк "Х") с актуальными данными (РАБОЧАЯ база)
 3. Выполнил команду   **"Выгрузить конфигурацию в файлы"/"Выгрузить в файлы"**
     _где каталОг для выгружаемых файлов это ЛокальныйРепозиторийПроекта_
     _(сохраняем с заменой текущих файлов). Командой git status можно увидеть изменения_
 #
     git add .
-    git commit -m "update_for_current_data"
-    git push -u origin update_for_current_data
+    git commit -m "update_to_current_data"
+    git push -u origin update_to_current_data
 
 
 
@@ -82,13 +82,13 @@ _(1:Начало, выполняется только один раз перед
 2. Выполните команду   **git fetch**, чтобы получить из него последние коммиты
 3. Затем убедитесь, что в ветке main также содержатся последние изменения   **git pull**
 #
-    git merge** update_for_current_data
-    git commit -m "merge update_for_current_data
+    git merge** update_to_current_data
+    git commit -m "merge update_to_current_data
     git push -u origin main 
-   _// где "update_for_current_data" - это название ветки-источник_
+   _// где "update_to_current_data" - это название ветки-источник_
    _// где main - это имя первичной ветки._
 
-7. Удаляем вспомогательную ветку созданную для актуализации данных:   **git branch -d** update_for_current_data
+7. Удаляем вспомогательную ветку созданную для актуализации данных:   **git branch -d** update_to_current_data
 
 
 
