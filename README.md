@@ -54,7 +54,7 @@ _Схема разработки:_
 7. Открываем консоль и выполняем команды:
 #
     git add .
-    git commit -m "init nameObj_X"
+    git commit -m "init v2.1.0.0"
     git push -u origin main
     
    _// где main - это имя первичной ветки_
