@@ -55,9 +55,9 @@ _Схема разработки:_
 #
     git add .
     git commit -m "init v2.1.0.0"
-    git push -u origin main
+    git push -u origin master
     
-   _// где main - это имя первичной ветки_
+   _// где master - это имя первичной ветки_
 
    _// Если файл попал в индекс не смотря на **.gitignore** и нужно убрать его из индекса: **git rm --cached path/to/file**_
    
