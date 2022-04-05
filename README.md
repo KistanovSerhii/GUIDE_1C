@@ -35,7 +35,9 @@
     git add .
     git commit -m "init nameObj_X"
     git push -u origin main
-   _// где main - это имя первичной ветки._
+    
+   _// где main - это имя первичной ветки_
+
    _// Если файл попал в индекс не смотря на **.gitignore** и нужно убрать его из индекса: **git rm --cached path/to/file**_
 
 
