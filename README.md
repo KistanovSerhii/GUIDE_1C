@@ -169,16 +169,16 @@ _По необходимости коммитим и пушим на удале�
             Удаляем ветку задач ITTF_xx (git branch -d ITTF_xx)
             Удаляем ветку       copy_xxxxxxxx_x
             Переходим на единственную ветку master
-            Создаем ветку       ITTFC_хх
-            Переходим на ветку  ITTFC_хх
+            Создаем ветку       ITFC_xxxxxxxx_x
+            Переходим на ветку  ITFC_xxxxxxxx_x
             "Выгружаем в файлы" версию которая получилась после решения конфликта
             git add .
-            git commit -m "fix merge conflict ITTFC_xx"
-            git push -u origin ITTFC_xx
+            git commit -m "fix merge conflict ITFC_xxxxxxxx_x"
+            git push -u origin ITFC_xxxxxxxx_x
             Переходим на ветку master
-            Объединяем ветку master c веткой ITTFC_xx
+            Объединяем ветку master c веткой ITFC_xxxxxxxx_x
             git add .
-            git commit -m "merge with ITTFC_xx"
+            git commit -m "merge with ITFC_xxxxxxxx_x"
             git push -u origin master
             ГОТОВО! Эта версия готова к загрузке с заменой рабочих файлов.
         ИНАЧЕ
