@@ -62,7 +62,7 @@ _Схема разработки:_
 7. Открываем консоль и выполняем команды:
 #
     git add .
-    git commit -m "init v2.1.0.0"
+    git commit -m "init 1.0.0.1"
     git push -u origin main
     
    _// где main - это имя первичной ветки_
