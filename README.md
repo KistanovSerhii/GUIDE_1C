@@ -258,7 +258,13 @@ _По необходимости коммитим и пушим на удале�
 
         git branch -d copy_xxxxxxxx_xx
 
+Authentication Failed:
 
+       git remote -v
+       git remote set-url origin git@github.com:USERNAME/REPONAME.git
+       // git@github.com:USERNAME/REPONAME.git - это ссылка на текущий репозиторий
+       // (git remote set-url origin https://github.com/KistanovSerhii/PROF1S.git)
+       // Как правило после этого надо сделать git fetch, git pull, выгрузить в файлы из 1С
 
 
 # Добплнительно:
