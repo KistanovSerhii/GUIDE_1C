@@ -285,6 +285,9 @@ Authentication Failed:
     Показать commits на ветках (точки изменений на временной оси):
     git log
     
+    Показать commits на ветках (точки изменений на временной оси) с визуализацией:
+    git log --graph --pretty=oneline --addrev-commit
+    
     Показать что изменилось в файле после commit и нашим редактированием (что мы поменяли и еще не закомитили):
     git diff FileName
     
