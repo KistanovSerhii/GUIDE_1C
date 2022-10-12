@@ -319,6 +319,9 @@ Authentication Failed:
     !.gitignore
     !script.pl
     !template.latex
+    # and not this folder
+    !aDir/
+    aDir/*
     # etc...
 
 [(начало)](#pageup);
