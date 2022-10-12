@@ -311,6 +311,7 @@ Authentication Failed:
     И удалит изменения в локальных файлах (УДАЛИТСЯ ВЕЗДЕ)!):
     git reset --hard commitID-HASH
 
+#Настройка файла .gitignore
     # Ignore everything
     *
 
