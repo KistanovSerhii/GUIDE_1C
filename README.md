@@ -321,7 +321,7 @@ Authentication Failed:
     !template.latex
     # and not this folder
     !aDir/
-    aDir/*
+    !aDir/some1*
     # etc...
 
 [(начало)](#pageup);
